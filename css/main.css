@@ -1,0 +1,139 @@
+/**** Site Set-up ****/
+@font-face {
+  font-family: wisdom;
+  src: url('../fonts/wisdom-script-regular.otf') format('opentype');
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+
+p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/**** Grids ****/
+.full-width {
+  width: 1240px;
+  padding: 0px 20px;
+}
+
+.third-width {
+  width: 320px;
+  float: left;
+}
+
+/**** Header Section ****/
+
+h1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 23px;
+  text-transform: uppercase;
+  float: left;
+}
+
+#rogue {
+  color: #77a466;
+}
+
+
+  /**** Nav ****/
+nav {
+  color: #77a466;
+  float: right;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 23px;
+  padding-top: 8px;
+  text-transform: uppercase;
+
+}
+
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+#top {
+  border-width: 3px 0px 3px 0px;
+  border-color: #77a466;
+  border-style: solid;
+  clear: both;
+}
+
+#main-image {
+  background-image: url("../img/main-image.png");
+  height: 280px;
+}
+
+/**** Main Section ****/
+h2 {
+  color: #77a466;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+#intro {
+  border-bottom: 1px solid;
+
+}
+
+h3 {
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#specials {
+  padding-right: 80px;
+}
+
+#specials p {
+    color: #77a466;
+    line-height: 18px;
+}
+
+#reviews {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  padding-left: 35px;
+  padding-right: 45px;
+}
+
+#reviews p {
+  line-height: 21px;
+}
+
+#contact {
+  padding-left: 30px;
+  padding-right: 50px;
+}
+
+#contact p {
+  line-height: 24px;
+}
+
+/**** Footer Section ****/
+
+footer {
+  border-top: 1px solid;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  padding: 30px 0px 30px 0px;
+  text-transform: uppercase;
+  text-align: center;
+  clear: both;
+}
+
+#fresh {
+  font-family: wisdom;
+  color: #77a466;
+  text-transform: lowercase;
+}
